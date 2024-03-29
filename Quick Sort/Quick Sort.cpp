@@ -74,5 +74,8 @@ void q_short(int low, int high)
 		{
 			(low, j);
 		}
+
+		q_short(low, j - 1);
+
 	}
 }
